@@ -1,0 +1,13 @@
+{% extends 'craigslist_app/layout.html' %}
+    {% block content %}
+
+        <h2>Category: {{category.name}}</h2>
+        {% for post in posts %}
+
+        <a href="{% url 'post_info' category.id post.id %}">{{post.title}}</a>
+
+        {% endfor %}
+    <a href="{% url 'add_post' category.id %}">create a new post</a>
+
+    {% endblock %}
+    

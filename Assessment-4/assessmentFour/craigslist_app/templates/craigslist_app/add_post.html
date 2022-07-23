@@ -1,0 +1,15 @@
+{% extends 'craigslist_app/layout.html' %}
+    {% block content %}
+        <h1>New Post</h1>
+        <label>Title:</label>
+        <input id="newTitle"></input>
+        <br>
+        <label>User:</label>
+        <input id="newUser"></input>
+        <br>
+        <label>Description:</label>
+        <input id="newDescription"></input>
+        <br>
+
+        <button onClick="{addPost()}">Submit</button>
+    {% endblock %}
