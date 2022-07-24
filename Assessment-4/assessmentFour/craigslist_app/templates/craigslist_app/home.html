@@ -3,7 +3,7 @@
         {% for category in categories %}
 
        
-            <a href="{% url 'list_posts' category.id %}">{{category.name}}</a>
+            <a class="category_names" href="{% url 'list_posts' category.id %}">{{category.name}}</a>
             <a href="{% url 'edit_category' category.id %}">Edit Category</a>
             <a href="{% url 'delete_category' category.id %}">Delete Category</a>
             <br>

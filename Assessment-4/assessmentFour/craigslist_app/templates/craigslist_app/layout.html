@@ -10,13 +10,13 @@
 
   <!-- ADD JAVASCRIPT -->
   <script src = "/static/js/craigslist.js" defer></script>
-
+  <link rel="stylesheet" href="/static/css/craigslist.css" />
   <!-- IMPORT CSS -->
 
-<title>Index</title>
+<title>Craigslist Jr.</title>
 </head>
 <body>
-  <h1>craigslist</h1>
+  <a href="{% url 'home' %}"><h1><img src="https://img.icons8.com/ios/50/000000/minion-2.png"/>craigslist</h1></a>
   {% block content%}
   {% endblock %}
 
