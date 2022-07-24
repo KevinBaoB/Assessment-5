@@ -1,0 +1,15 @@
+{% extends 'craigslist_app/layout.html' %}
+    {% block content %}
+        <h2>Edit Post</h2>
+        <label>Title: </label>
+        <input id="newTitle" value="{{post.title}}"></input>
+        <br>
+        <label>User:</label>
+        <input id="newUser" value="{{post.user}}"/></input>
+        <br>
+        <label>Description:</label>
+        <input id="newDescription" value="{{post.description}}"></input>
+        <br>
+
+        <button onClick="{editPost()}">Submit</button>
+    {% endblock %}
