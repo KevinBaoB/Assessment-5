@@ -3,6 +3,8 @@
         <h1 id="title">{{post.title}}</h1>
         <p id="user">User: {{post.user}}</p>
         <p id="description">Description: {{post.description}}</p>
+        <p>postid: {{post.id}}</p>
+        <p>created date: {{post.date_created}}</p>
         <br>
 
         <a href="{% url 'edit_post' category_id post.id %}">Edit Post</a>

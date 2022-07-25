@@ -61,7 +61,6 @@ def delete_post(request, category_id, post_id):
     post = get_object_or_404(Post, id = post_id)
     if request.method == "POST":
         post.delete()
-        PROMPT('Delete Successful')
         return HttpResponseRedirect(reverse("home"))
     
     return render(request, 'craigslist_app/delete_post.html')
@@ -70,7 +69,7 @@ def delete_post(request, category_id, post_id):
 def add_post(request, category_id):
     if request.method == "POST":
         body = json.loads(request.body)
-        newPost = Post(title = body["title"], user= body["user"], description= body["description"], category_id= category_id)
+        newPost = Post(title = body["title"], user= body["user"], description= body["description"], image= body["image"], category_id= category_id)
         newPost.save()
         return JsonResponse({})
     return render(request, "craigslist_app/add_post.html")
