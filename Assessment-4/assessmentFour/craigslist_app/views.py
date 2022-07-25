@@ -69,7 +69,7 @@ def delete_post(request, category_id, post_id):
 def add_post(request, category_id):
     if request.method == "POST":
         body = json.loads(request.body)
-        newPost = Post(title = body["title"], user= body["user"], description= body["description"], image= body["image"], category_id= category_id)
+        newPost = Post(title = body["title"], user= body["user"], description= body["description"], category_id= category_id)
         newPost.save()
         return JsonResponse({})
     return render(request, "craigslist_app/add_post.html")

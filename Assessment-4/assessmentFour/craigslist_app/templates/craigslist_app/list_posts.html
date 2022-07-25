@@ -5,6 +5,7 @@
         {% for post in posts %}
 
         <a class="post_names" href="{% url 'post_info' category.id post.id %}">{{post.title}}</a>
+        <br>
 
         {% endfor %}
     <a href="{% url 'add_post' category.id %}">create a new post</a>
