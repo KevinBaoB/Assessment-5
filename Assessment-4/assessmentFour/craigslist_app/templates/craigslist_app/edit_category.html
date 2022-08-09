@@ -1,9 +1,0 @@
-{% extends 'craigslist_app/layout.html' %}
-    {% block content %}
-        <h2>Edit Category</h2>
-        <label>Name: </label>
-        <input id="newName" value="{{category.name}}"></input>
-        <br>
-
-        <button onClick="{editCategory()}">Submit</button>
-    {% endblock %}
