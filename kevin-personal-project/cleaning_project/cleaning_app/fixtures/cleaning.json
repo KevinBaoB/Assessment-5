@@ -1,0 +1,542 @@
+[
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 1,
+        "fields": {
+            "surface": 1,
+            "items": "Decorative Objects",
+            "routine_care": "Use a cleaner formulated for acrylic. Or, wash in warm, clean water and dry immediately using a clean, soft cloth.",
+            "special_instructions": "Avoid scratching acrylic surfaces."
+        }
+    }, 
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 2,
+        "fields": {
+            "surface": 1,
+            "items": "Bathtubs, Spas, Whirlpools",
+            "routine_care": "Follow fixture manufacturer's care instructions.",
+            "special_instructions": "surfaces of spas and whirlpools can be sensitive to some household cleaners."
+        }
+    }, 
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 3,
+        "fields": {
+            "surface": 2,
+            "items": "Glass Cooktops",
+            "routine_care": "Using a nonabrasive sponge, paper towel, or clean cloth, apply a cleaner formulated for ceramic glass or a paste of baking soda and water. Rinse and dry thoroughly.",
+            "special_instructions": "Wait until cooktop has cooled before cleaning. Do not use abrasive cleansers. Do not use abrasive cleansers. Do not use abrasive cleansers."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 4,
+        "fields": {
+            "surface": 3,
+            "items": "Bathtubs, Countertops, Floors, Showers, Walls",
+            "routine_care": "Use a nonabrasive, all-purpose cleaner (diluted or full strength); tub/tile/sink cleaner; or liquid cleanser. Rinse thoroughly with clean water and buff tiles with a dry cloth to prevent water spots.",
+            "special_instructions": "The easiest way to keep tiled shower walls clean is to wipe them down with a towel after each use. This will keep soap scum and hard water deposits from accumulating. Avoid using powdered abrasive cleansers that could scratch the surface. Use a soft bristle brush to clean grout. A solution of liquid household bleach (sodium hypochlorite)(3/4 cup of bleach to 1 gallon water), or a mildew stain remover applied carefully with a brush helps clean stained or mildewed grout. Rinse thoroughly."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 5,
+        "fields": {
+            "surface": 4,
+            "items": "Flooring",
+            "routine_care": "Wipe up spills with a damp sponge or cloth as soon as they occur.",
+            "special_instructions": "Cork is porous and absorptive; a sealer or protective coating should be applied for resistance to spills and wear. Avoid using water."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 6,
+        "fields": {
+            "surface": 4,
+            "items": "Wall Coverings",
+            "routine_care": "Use a floor wax regularly to protect the surface and a sealer to add a protective coating. Follow label directions.",
+            "special_instructions": ""
+        }
+    }, 
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 7,
+        "fields": {
+            "surface": 5,
+            "items": "Bathtubs",
+            "routine_care": "Use a tub/tile/sink cleaner; nonabrasive, all purpose cleaner or baking soda on the surface. Rub the surface gently, rinse or wipe clean.",
+            "special_instructions": "Follow fixture manufacturer's care instructions."
+        }
+    }, 
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 8,
+        "fields": {
+            "surface": 5,
+            "items": "Shower Stalls",
+            "routine_care": "Use a tub/tile/sink cleaner; nonabrasive, all purpose cleaner or baking soda on the surface. Rub the surface gently, rinse or wipe clean.",
+            "special_instructions": "Avoid using abrasive cleansers and pads that could scratch, discolor or dull a fiberglass fixture."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 9,
+        "fields": {
+            "surface": 5,
+            "items": "Sinks",
+            "routine_care": "Use a tub/tile/sink cleaner; nonabrasive, all purpose cleaner or baking soda on the surface. Rub the surface gently, rinse or wipe clean.",
+            "special_instructions": "An acid base bathroom cleaner may be useful to help remove hard water deposits and rust scale."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 10,
+        "fields": {
+            "surface": 6,
+            "items": "Doors, Mirrors, Table Protectors, Tabletops, Windows",
+            "routine_care": "Use a glass or glass and multi-surface cleaner. Or combine 1/2 cup of ammonia in a gallon of water. Wet a sponge or cloth with the ammonia solution. Rinse with a clean, damp cloth and dry with a clean cloth, paper towels or a squeegee.",
+            "special_instructions": "Keep cleaning product away from the frame of a picture or mirror by spraying product on a clean cloth then cleaning the glass or mirror. Or, hold cardboard or a cloth against the frame while spraying cleaner."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 11,
+        "fields": {
+            "surface": 6,
+            "items": "Shower Doors, Enclosures",
+            "routine_care": "Use a nonabrasive, all-purpose cleaner, glass and multi-surface cleaner or a tub/tile/sink cleaner.",
+            "special_instructions": "Keep shower doors ajar and enclosures open so that air can circulate to reduce mildew growth."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 12,
+        "fields": {
+            "surface": 7,
+            "items": "Furniture",
+            "routine_care": "Use a wipe, foam, paste soap or cleaner designed for cleaning and conditioning leather.",
+            "special_instructions": "Follow furniture manufacturer's care instructions."
+        }
+    }, 
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 13,
+        "fields": {
+            "surface": 8,
+            "items": "Counters, Floors, Tabletops, Walls",
+            "routine_care": "Wipe up spills and spots immediately. Use a product formulated for cleaning marble.",
+            "special_instructions": "Avoid using acid type cleaners or spilling acids on marble. Pitting and staining can result."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 14,
+        "fields": {
+            "surface": 9,
+            "items": "Appliances, Accessories, Trim",
+            "routine_care": "Clean with a nonabrasive all-purpose cleaner, using a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a clean, soft cloth.",
+            "special_instructions": "Heavily soiled surfaces may require multiple cleanings or soaking in  a solution of nonabrasive, all-purpose cleaner and warm water."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 15,
+        "fields": {
+            "surface": 9,
+            "items": "Outdoor Furniture",
+            "routine_care": "Clean with a nonabrasive, all-purpose cleaner, using a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a clean, soft cloth.",
+            "special_instructions": "Use a steel wool soap pad to remove stubborn soils. Protect fur   niture by applying a coat of paste wax and buff with a clean, soft cloth. Clean strap type furniture with a vinyl cleaner that contains bleach. Spray surface with cleaner, keeping surface wet for 5 minutes to give the bleach a chance to work on any mildew stains. Scrub out stains on acrylics using a synthetic sponge, or use a plastic scrub on polyesters. Rinse and dry thoroughly. Remove suntan lotion from synthetic cushions with a household cleaner containing pine oil."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 16,
+        "fields": {
+            "surface": 9,
+            "items": "Window Blinds",
+            "routine_care": "Dust regularly with a clean, soft cloth, or the brush attachment of the vacuum. Clean with water, gently scrubbing with a sponge or cloth. Dry with a clean, soft cloth.",
+            "special_instructions": "Follow blind manufacturer's care instructions."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 17,
+        "fields": {
+            "surface": 10,
+            "items": "Decorative Objects",
+            "routine_care": "For lacquered brass, rinse with warm water and dry with a soft cloth. To remove tarnish from unlacqueredbrass only, use a brass cleaner according to the label directions.",
+            "special_instructions": "Brass items coated with a lacquered finish require only dusting and    an occasional rinsing in water. Dry with a clean, soft cloth. Do not use any cleaner on lacquered brass items."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 18,
+        "fields": {
+            "surface": 10,
+            "items": "Faucets",
+            "routine_care": "The ideal cleaning technique is to wipe the faucet dry whenever water is splashed on it. Water deposits will not form if water is not allowed to evaporate on the surface. Use a brass cleaner.",
+            "special_instructions": "Follow faucet manufacturer's care instructions."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 19,
+        "fields": {
+            "surface": 11,
+            "items": "Appliance, Trim",
+            "routine_care": "Clean with a nonabrasive, all-purpose cleaner, using a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a clean, soft cloth.",
+            "special_instructions": "Refer to appliance manufacturer's use and care manual for any special  cleaning instructions."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 20,
+        "fields": {
+            "surface": 11,
+            "items": "Faucets",
+            "routine_care": "Clean with a damp sponge using a tub/tile/sink cleaner; abrasive or nonabrasive, all-purpose cleaner; glass cleaner or glass and multi-surface cleaner. Rinse and buff with a clean, soft cloth.",
+            "special_instructions": "Follow faucet manufacturer's care instructions"
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 21,
+        "fields": {
+            "surface": 12,
+            "items": "Decorative Objects",
+            "routine_care": "For lacquered copper, rinse with warm water and dry with a soft cloth. To remove tarnish from unlacqueredcopper only, use a copper cleaner according to label directions.",
+            "special_instructions": "Copper items coated with a lacquered finish require only dusting and   an occasional rinsing in water. Dry with a clean, soft cloth. Do not use any cleaner on lacquered copper items"
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 22,
+        "fields": {
+            "surface": 13,
+            "items": "Appliance Exteriors",
+            "routine_care": "Clean with a nonabrasive, all-purpose cleaner, using a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a clean, soft cloth. Or, apply a creamy liquid kitchen wax that cleans and protects the surface as it is applied. Apply wax to a predampened cloth, and clean a  small area (about a square foot) at a time. Buff with a clean dry cloth while wax is still moist.",
+            "special_instructions": "Avoid using abrasive cleaners that could scratch the surface."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 23,
+        "fields": {
+            "surface": 13,
+            "items": "Cabinets, Portable Appliances",
+            "routine_care": "Clean with a nonabrasive, all-purpose cleaner, using a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a clean, soft cloth. Or, apply a creamy liquid kitchen wax that cleans and protects the surface as it is applied. Apply wax to a predampened cloth, and clean a  small area (about a square foot) at a time. Buff with a clean dry cloth while wax is still moist.",
+            "special_instructions": "Appliances should be waxed only 3-4 times a year. Excess wax can build up, especially on textured surfaces."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 24,
+        "fields": {
+            "surface": 14,
+            "items": "Appliance Exteriors",
+            "routine_care": "Clean with a stainless steel cleaner or an all-purpose cleaner or cleanser, using a sponge or cloth. Remove any stubborn stains using a paste of baking soda and water applied with a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a soft, clean cloth. Or, use a glass  or glass and multi-surface cleaner.",
+            "special_instructions": "Towel dry to avoid water spots."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 25,
+        "fields": {
+            "surface": 14,
+            "items": "Trims, Range Tops, Sinks",
+            "routine_care": "Clean with a stainless steel cleaner or an all-purpose cleaner or cleanser, using a sponge or cloth. Remove any stubborn stains using a paste of baking soda and water applied with a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a soft, clean cloth. Or, use a glass  or glass and multi-surface cleaner.",
+            "special_instructions": "For heavy soils on a range top, spray soil with a nonabrasive, all-purpose cleaner. Then, cover with a damp paper towel for 15 minutes. Gently scrub clean."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 26,
+        "fields": {
+            "surface": 15,
+            "items": "Appliance Exteriors, Trims",
+            "routine_care": "Clean with a nonabrasive, all-purpose cleaner, using a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a clean, soft cloth. Or, use a glass or glass and multi-surface cleaner.",
+            "special_instructions": "The surface can be scratched, punctured or gouged, so care should  be taken in cleaning."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 27,
+        "fields": {
+            "surface": 16,
+            "items": "Ceilings, Furniture, Walls, Woodwork",
+            "routine_care": "Test the washability of the surface by first washing an inconspicuous area. Use a nonabrasive, all-purpose cleaner or a wood cleaner.",
+            "special_instructions": "For walls, start at the bottom of the wall and work up to the ceiling, overlapping areas as you clean and using a circular motion. In this way, any dirty streaks can be wiped off the clean area and will not leave marks that are hard to remove."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 28,
+        "fields": {
+            "surface": 17,
+            "items": "Appliances, Accessories, Trim",
+            "routine_care": "Use a nonabrasive, all-purpose cleaner. Rinse with clean water and dry with a clean, soft cloth.",
+            "special_instructions": "Avoid using abrasive cleanser that may scratch the plastic."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 29,
+        "fields": {
+            "surface": 17,
+            "items": "Bathtubs, Shower Stalls, Sinks, Wall Tile",
+            "routine_care": "Use a tub/tile/sink cleaner; nonabrasive, all-purpose cleaner; or a paste of baking soda and water. Apply the cleaner to the surface or on a damp sponge and rub gently. Rinse or wipe clean. Specialty products are available. Follow label directions.",
+            "special_instructions": "Follow fixture/tile manufacturer's care instructions. Some plastic surfaces are not compatible with some cleaners. If soil is heavy, allow the solution to set on the surface for at least 30 seconds to loosen the dirt."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 30,
+        "fields": {
+            "surface": 17,
+            "items": "Furniture",
+            "routine_care": "Use a nonabrasive, all-purpose cleaner; glass and multi-surface cleaner; or a cleaner-polish. Rinse thoroughly and dry with a clean soft cloth.",
+            "special_instructions": ""
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 31,
+        "fields": {
+            "surface": 17,
+            "items": "Plastic Laminates, Cabinets, Countertops",
+            "routine_care": "Clean with a nonabrasive, all-purpose cleaner using a sponge or cloth. Rinse with a sponge or cloth wrung from clean water; dry with a clean, soft cloth, Or, apply a creamy liquid kitchen wax that cleans and protects the surface as it is applied. Apply wax to a predampened cloth and clean a    small area (about a square foot) at a time. Buff with a clean, dry cloth while wax is still moist.",
+            "special_instructions": "A specially formulated cleaner can be used to renew countertop surfaces when they become dull and worn looking. Avoid using abrasive cleansers that could dull or bleach products that could alter the color of the surface."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 32,
+        "fields": {
+            "surface": 17,
+            "items": "Portable Appliances",
+            "routine_care": "Use a nonabrasive, all-purpose cleaner. Rinse with clean water and dry with a clean, soft cloth",
+            "special_instructions": "Unplug any appliance before cleaning."
+        }
+    }, 
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 33,
+        "fields": {
+            "surface": 17,
+            "items": "Refrigerator/Freezer Interior",
+            "routine_care": "To clean the inside walls of a refrigerator or freezer, use a nonabrasive all-purpose cleaner. Or use a solution of 2 tablespoons baking soda to a quart of warm water. Rinse thoroughly and dry with a clean, soft cloth.",
+            "special_instructions": ""
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 34,
+        "fields": {
+            "surface": 17,
+            "items": "Toilet Seats/Lids",
+            "routine_care": "Clean with a nonabrasive, all-purpose cleaner, using a sponge or cloth. Thoroughly rinse and dry hinge areas and bumpers.",
+            "special_instructions": ""
+        }
+    }, 
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 35,
+        "fields": {
+            "surface": 17,
+            "items": "Window Blinds",
+            "routine_care": "Dust regularly with a clean, soft brush or the brush attachment of a vacuum. To clean, use water and scrub gently with a sponge or soft cloth. Dry with a clean, soft cloth. A furniture polish applied to the slats after cleaning will make dusting and cleaning easier.",
+            "special_instructions": "Follow blind manufacturer's care instructions. Use furniture polish sparingly to avoid a wax buildup."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 36,
+        "fields": {
+            "surface": 17,
+            "items": "Windows/Storm Doors",
+            "routine_care": "Use a cleaning product formulated for plastics.",
+            "special_instructions": "Household cleaners, cleansers and ammonia should not be used to clean plastic window and storm doors. Streaking in the plastic could occur."
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 37,
+        "fields": {
+            "surface": 18,
+            "items": "Appliance Exteriors",
+            "routine_care": "Clean with a nonabrasive, all-purpose cleaner, using a sponge or cloth. Rinse with a sponge or cloth. Or apply a creamy liquid kitchen wax that cleans and protects the surface as it is applied. Apply wax to a predampened cloth and clean a small area (about a square foot) at a time. Buff with a    clean, dry cloth while wax is still moist.",
+            "special_instructions": "Wipe up spills and splatters immediately to make cleaning easier and to prevent discoloration from acid-containing spills. Avoid using abrasive cleansers that may scratch the surface. Use wax sparingly to prevent a wax buildup. Do not wipe a hot porcelain surface, e.g., range top, with a damp cloth as cracking and chipping can result."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 38,
+        "fields": {
+            "surface": 18,
+            "items": "Bathtubs, Sinks",
+            "routine_care": "Use a tub/tile/sink cleaner or a liquid abrasive or nonabrasive, all purpose cleaner. Apply the cleaner to a damp sponge or directly to the surface. Allow the cleaner to penetrate the soil, then rub or scour. Rinse with clean water.",
+            "special_instructions": "Specialty products are available to help remove soap scum, hard water mineral deposits and rust. Follow label instructions."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 39,
+        "fields": {
+            "surface": 18,
+            "items": "Oven Interior",
+            "routine_care": "Use an oven cleaner for manually cleaned ovens. For cleaning continuous or self-cleaning ovens, follow appliance manufacturer's instructions.",
+            "special_instructions": "Do not use an oven cleaner on a self-cleaning or continuous   cleaning oven. The cleaner may damage the surface."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 40,
+        "fields": {
+            "surface": 18,
+            "items": "Range Drip Bowls",
+            "routine_care": "Soak in a solution of hot water and hand dishwashing detergent. If necessary, use a liquid abrasive cleanser, soap scouring pad or a plastic scouring pad. Porcelain drip bowls can be cleaned in an automatic dishwasher.",
+            "special_instructions": "Clean frequently to prevent soils from building up. To clean difficult soils, remove drip bowl from range, place on newspapers and use oven cleaner, following the manufacturer's instructions. Do not cover drip bowls with aluminum foil."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 41,
+        "fields": {
+            "surface": 19,
+            "items": "Flooring",
+            "routine_care": "Mix a nonabrasive, all purpose cleaner with warm water according to label directions. Clean the floor surface using a mop, sponge or cloth dipped in the solution and wring out. Change the cleaning solution as necessary.",
+            "special_instructions": "Check with flooring manufacturer for any special care instructions."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 42,
+        "fields": {
+            "surface": 20,
+            "items": "Flooring",
+            "routine_care": "Mix a nonabrasive, all purpose cleaner with warm water according to label directions. Clean the floor surface using a mop, sponge or cloth dipped in the solution and wring out. Change the cleaning solution as necessary. Three categories of floor cleaning products are also available; some that clean, clean and add shine, or just add shine. Follow label directions for proper use.",
+            "special_instructions": "Check with flooring manufacturer for any special care instructions. Read cleaning product label for rinsing instructions; some products require rinsing, others do not."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 43,
+        "fields": {
+            "surface": 21,
+            "items": "Flooring",
+            "routine_care": "Mix a nonabrasive, all-purpose cleaner with warm water according to the package directions. Clean the floor surface using a mop, sponge or cloth dipped in the solution and wrung out. Change the cleaning solution as necessary. Read cleaning product label for rinsing instructions some products require rinsing, others do not.",
+            "special_instructions": "Scratches caused by grinding dirt and grit into the flooring can dull the finish. After a period of time it may be necessary to use some type of polish to help provide protection, fill in scratches and add shine. Use a floor cleaning product one that cleans, cleans and shines, or adds shine. Follow label directions for proper use."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 44,
+        "fields": {
+            "surface": 22,
+            "items": "Toilet Bowls Inside",
+            "routine_care": "Use a toilet bowl cleaner and scrub the inside of the bowl with a toilet brush. Be sure to scrub under the rim of the bowl. Let the solution stand a few minutes; flush. In hard water areas, clean the toilet bowl more frequently. Use a long-handled toilet brush to clean the rim holes, and as   far into the trap as possible, in order to prevent mineral deposits from forming.",
+            "special_instructions": "Do not mix different types of toilet bowl cleaners together. For example, remove an in-tank cleaner before using another type of toilet bowl cleaner in the bowl. Do not use a toilet bowl cleaner to clean any surface other than the inside of the toilet bowl."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 45,
+        "fields": {
+            "surface": 22,
+            "items": "Toilet Bowls Outside",
+            "routine_care": "Wash the outside of the bowl using a nonabrasive all-purpose cleaner or disinfectant cleaner and a sponge or cloth. Rinse the sponge or cloth and wipe the surfaces.",
+            "special_instructions": ""
+        }  
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 46,
+        "fields": {
+            "surface": 23,
+            "items": "Wall Covering Washable Wallpaper:",
+            "routine_care": " Test the washability of the surface by first washing an inconspicuous area. Use a special liquid wallpaper cleaner or a nonabrasive, all-purpose cleaner.",
+            "special_instructions": "Start at the bottom of a wall and work up to the ceiling, overlapping  areas as you clean and using a circular motion. In this way, any dirty streaks can be wiped off the clean areas and will not leave marks that are hard to remove. Clean frequently to avoid a buildup of hard-to-remove soil."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 47,
+        "fields": {
+            "surface": 23,
+            "items": "Wall Covering Nonwashable Wallpaper:",
+            "routine_care": "Use a special product (ground art gum in a bag) or a dough wallpaper cleaner.",
+            "special_instructions": "Start at the bottom of a wall and work up to the ceiling, overlapping areas as you clean and using a circular motion. In this way, any dirty streaks can   be wiped off the clean areas and will not leave marks that are hard to remove. Clean frequently to avoid a buildup of hard-to-remove soil."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 48,
+        "fields": {
+            "surface": 24,
+            "items": "Cabinets",
+            "routine_care": "Use a product that cleans finished wood to remove fingerprints, smudges and other soils. A polish or wax may be used if a shine is desired. Buff with a soft cloth.",
+            "special_instructions": "Be sure wood is properly finished. Any substance, even water, used on unfinished or improperly finished wood can damage the surface."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 49,
+        "fields": {
+            "surface": 24,
+            "items": "Chopping Block",
+            "routine_care": "Wash and scour with an abrasive cleanser, using a stiff brush. Rinse thoroughly with sponge. Periodically apply a coating of salad or mineral oil to make the wood more stain resistant.",
+            "special_instructions": "Avoid soaking with water so that the chopping block does not split o  r warp."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 50,
+        "fields": {
+            "surface": 24,
+            "items": "Floors",
+            "routine_care": "Dust mop or clean with the floor brush attachment of a vacuum cleaner. Use a wood cleaner or either a liquid or paste polish to clean and add a new wax coating.",
+            "special_instructions": "Wipe up spills with a clean, damp sponge or cloth as soon as they occ ur. If using a water solution, wipe up any excess liquid. Liquids left standing on wood can damage the surface. If using a water solution, wipe up any excess liquid. Liquids left standing on wood can damage the surface."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 51,
+        "fields": {
+            "surface": 24,
+            "items": "Furniture",
+            "routine_care": "Use a dusting product to pick up and retain light dust and soil. Product can be sprayed onto the surface or onto a dusting cloth. Remove dust and stains and add shine and protection with a furniture cleaner, cleaner polish or polish. Apply to surface and wipe with a clean, soft cloth.",
+            "special_instructions": "Redwood Furniture Use a sealer or coating to protect the surface and prevent the wood from turning a mottled grey. Use a sealer or coating to protect the surface and prevent the wood from turning a mottled grey."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 52,
+        "fields": {
+            "surface": 24,
+            "items": "Wall Paneling",
+            "routine_care": "Use a wood cleaner and conditioner to clean and protect the finish.",
+            "special_instructions": ""
+        }
+    }, 
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 53,
+        "fields": {
+            "surface": 24,
+            "items": "Window Blinds",
+            "routine_care": "Dust when needed using a soft brush or the brush attachment of a vacuum. Use a creamy liquid wax to clean and wax at the same time. Apply furniture polish to the slats after cleaning to make dusting and cleaning easier. Bamboo Blinds Dust with a soft brush or the dusting attachment of the vacuum  cleaner. Do not wash.",
+            "special_instructions": "Wear cleaning mitts to clean both sides of the slats at once."
+        }
+    },
+    { 
+        "model":"cleaning_app.cleaning",
+        "pk": 54,
+        "fields": {
+            "surface": 24,
+            "items": "Woodwork",
+            "routine_care": "Use a dusting product to pick up and retain light dust and soil. Product can be sprayed onto the surface or onto a dusting cloth. Remove dust and stains and add shine and protection with a furniture cleaner, cleaner-polish or polish. Apply to surface and wipe with a clean soft cloth.",
+            "special_instructions": ""
+        }
+    }
+]

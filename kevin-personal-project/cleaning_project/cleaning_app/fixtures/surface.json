@@ -1,0 +1,170 @@
+[
+    {
+      "model": "cleaning_app.surface",
+      "pk": 1,
+      "fields": {
+        "name": "Acrylic"
+      }
+    },
+    {
+      "model": "cleaning_app.surface",
+      "pk": 2,
+      "fields": {
+        "name": "Ceramic Glass"
+      }
+    },
+    {
+      "model": "cleaning_app.surface",
+      "pk": 3,
+      "fields": {
+        "name": "Tile"
+      }
+    },
+    {
+      "model": "cleaning_app.surface",
+      "pk": 4,
+      "fields": {
+        "name": "Cork"
+      }
+    },
+    {
+        "model": "cleaning_app.surface",
+        "pk": 5,
+        "fields": {
+          "name": "Fiberglass"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 6,
+        "fields": {
+          "name": "Glass"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 7,
+        "fields": {
+          "name": "Leather"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 8,
+        "fields": {
+          "name": "Marble"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 9,
+        "fields": {
+          "name": "Aluminum"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 10,
+        "fields": {
+          "name": "Brass"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 11,
+        "fields": {
+          "name": "Chrome-plated Steel"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 12,
+        "fields": {
+          "name": "Copper"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 13,
+        "fields": {
+          "name": "Painted Steel Acrylic or Baked Enamel"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 14,
+        "fields": {
+          "name": "Stainless Steel"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 15,
+        "fields": {
+          "name": "Vinyl-coated Steel"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 16,
+        "fields": {
+          "name": "Painted Surfaces"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 17,
+        "fields": {
+          "name": "Plastic"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 18,
+        "fields": {
+          "name": "Porcelain"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 19,
+        "fields": {
+          "name": "Resilient Flooring"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 20,
+        "fields": {
+          "name": "Asphalt Tile, Linoleum, Rubber Tile, Vinyl"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 21,
+        "fields": {
+          "name": "No-wax Vinyl"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 22,
+        "fields": {
+          "name": "Vitreous China"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 23,
+        "fields": {
+          "name": "Wallpaper"
+        }
+      },
+      {
+        "model": "cleaning_app.surface",
+        "pk": 24,
+        "fields": {
+          "name": "Wood"
+        }
+      }
+  ]
