@@ -22,4 +22,6 @@ urlpatterns = [
     path('get_user/', views.get_user, name='get_user'),
 
     path('get_products/<str:product_q>/', views.get_products, name='products'),
+
+    path('get_giphy/<str:query>/', views.get_giphy, name='get_giphy'),
 ]

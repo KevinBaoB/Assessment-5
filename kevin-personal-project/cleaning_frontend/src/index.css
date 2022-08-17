@@ -13,6 +13,13 @@
   background-color: #a09bc4;
 }
 
+.cardImage {
+  object-fit: cover;
+  border-radius: 55;
+  width: '50vw';
+  height: '30vh'
+}
+
 html {
   background-color: rgba(174, 168, 211, 1);
 

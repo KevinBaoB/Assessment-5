@@ -65,7 +65,7 @@ const handleClick = async() => {
                         Delete Surface
                     </Button>
 
-                    <Button href={`edit_surface/${surface_name}`} variant="outline-primary">
+                    <Button href={`#/surfaces/${surfaceID}/edit_surface/${surface_name}`} variant="outline-primary">
                     Edit Surface 
                     </Button>
                </div> : ""

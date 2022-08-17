@@ -14,6 +14,8 @@ from rest_framework.response import Response
 import json
 import urllib.parse as urlparse
 import os
+from urllib import parse
+from urllib import request as url_request
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -103,7 +105,7 @@ def get_products(request, product_q):
     params = {
     "key": os.environ["apikey"],
     "cx": "22ce47a45225e4ddb",
-    "q": f"{product_q} surface cleaning solution",
+    "q": f"{product_q} cleaner solution",
     "start": 0
     }
 
@@ -203,3 +205,22 @@ def get_cleaning_by_id(request):
     cleaning_convert = serializers.serialize("json", [cleaning], ensure_ascii=False)
     cleaning_result = cleaning_convert[1:-1]
     return HttpResponse(cleaning_result)
+
+@api_view(['GET'])
+@login_required
+def get_giphy(request, query):
+
+    params =  parse.urlencode({
+    "api_key": os.environ["giphykey"],
+    "q": f"{query}",
+    "limit": "15"
+    })
+
+    base_url = "http://api.giphy.com/v1/gifs/search"
+
+    with url_request.urlopen("".join((base_url, "?", params))) as response:
+        data = json.loads(response.read())
+
+    # result = json.dumps(data, sort_keys=True, indent=4)
+
+    return Response(data)

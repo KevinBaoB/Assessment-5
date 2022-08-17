@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import { Card, Container, Form } from 'react-bootstrap';
 
 
 const RegisterPage = () => {
@@ -25,24 +26,40 @@ const RegisterPage = () => {
     }
 
     return ( 
-        <div className='App'>
+        <Container fluid>
                 
             <h1>
                 <img src="https://www.codeplatoon.org/wp-content/uploads/2018/10/CP-logo-2018-abbrev-1.png" width="100" />
                 Cleaning App Register
             </h1>
-            
-             <form method="POST" onSubmit={handleClick}>
-                <input type="text" id="username" name='username' placeholder="Enter Username"/>
-                <input type="text" id="email" name='email' placeholder="Enter Email"/>
-                <input type="password" id="password1" name='password1' placeholder="Enter Password"/>
-                <input type="password" id="password2" name='password2' placeholder="Enter Password"/>
-                <input type="submit" />
-            </form>
-            <div>
+            <Card style={{ width: '30rem' }}>
+
+                <Form method="POST" onSubmit={handleClick}>
+                    <Form.Group className='mb-3'>
+                        <label className="form-label">UserName: </label>
+                        <input className="form-control" type="text" id="username" name='username' placeholder="Enter Username"/>
+                    </Form.Group>
+                    <Form.Group className='mb-3'>
+                        <label className="form-label">Email: </label>
+                        <input className="form-control" type="text" id="email" name='email' placeholder="Enter Email"/>
+                    </Form.Group>
+                    <Form.Group className='mb-3'>
+                        <label className="form-label">Password: </label>
+                        <input className="form-control" type="password" id="password1" name='password1' placeholder="Enter Password"/>
+                    </Form.Group>
+                    <Form.Group className='mb-3'>
+                        <label className="form-label">Confirm Password: </label>
+                        <input className="form-control" type="password" id="password2" name='password2' placeholder="Enter Password"/>
+                    </Form.Group>
+                    
+                    <input type="submit" />
+                </Form>
+                <div>
                 <Link to="/login">Already have a login? Log in Here!</Link>
-            </div>
-        </div>
+                </div>
+            </Card>
+
+        </Container>
         
      );
 }

@@ -2,6 +2,7 @@ import AppNav from "../components/AppNav";
 import React from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
+import CSRFToken from "../components/getCookie";
 
 
 const NewTipPage = () => {
@@ -22,7 +23,9 @@ const NewTipPage = () => {
             console.log('FAILURE')
         }
         else {
-            navigate(-1)
+            window.location.href = `#/surfaces/${surfaceID}`
+            window.location.reload()
+
         }
     }
 
@@ -32,6 +35,7 @@ const NewTipPage = () => {
             <AppNav />
             <h1>Enter Your Cleaning Tip</h1>
             <form method="POST" onSubmit={handleClick}>
+                <CSRFToken />
                 <div>
                     <div>
                         <h2>{surface_name}</h2>

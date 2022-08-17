@@ -15,9 +15,12 @@ const isLogin = async() => {
         setAuth(true)
     } else {
         console.log('fail')
-        return false
+        return window.location.href = '#/login'
     }
+
 }
+
+console.log(isLogin())
  const [auth, setAuth] = useState(true)
 
  isLogin()

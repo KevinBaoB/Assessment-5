@@ -2,10 +2,49 @@
 import axios from 'axios'
 import AppNav from '../components/AppNav'
 import Carousel from 'react-bootstrap/Carousel';
-import GIF from '../assets/output-onlinegiftools.gif';
+import cleaning_squid from '../assets/output-onlinegiftools.gif';
+import squiward_being_cleaned from '../assets/squidward.gif'
+import spongebob_crazy from '../assets/spongebob_crazy.gif'
 import { Container, Row, Col } from 'react-bootstrap'
+import { Card } from 'react-bootstrap';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 const HomePage = ({navItems}) => {
+
+    const [sadGif, setSadGif] = useState([])
+    const [cleaningGif, setCleaningGif] = useState([])
+
+    const getRandomNum = () => {
+        let randomNum = Math.floor(Math.random() * 20)
+        return randomNum
+    }
+
+    console.log(getRandomNum())
+
+    const getSadGiphy = async() => {
+        const query = 'sad spongebob'
+        const response = await axios.get(`/get_giphy/${query}/`)
+        console.log('sad')
+        let sadGif = response.data.data[getRandomNum()]['images']['downsized']['url']
+        console.log(sadGif)
+        setSadGif(sadGif)
+    }
+
+    const getCleaningGiphy = async() => {
+        const query = 'spongebob cleaning'
+        const response = await axios.get(`/get_giphy/${query}`)
+        console.log('clean')
+        let cleaningGif = response.data.data[getRandomNum()]['images']['downsized']['url']
+        console.log(cleaningGif)
+        setCleaningGif(cleaningGif)
+    }
+
+    useEffect(() => {
+        getSadGiphy()
+        getCleaningGiphy()
+    }, [])
+
     return (
         <div>
             <AppNav navItems={navItems}/>
@@ -15,7 +54,7 @@ const HomePage = ({navItems}) => {
                     <Col sm={4}>
                     <img
                         className="d-block"
-                        src={GIF}
+                        src={cleaning_squid}
                         alt="Second slide"
                         />
                     </Col>
@@ -47,11 +86,11 @@ const HomePage = ({navItems}) => {
                     <Carousel.Item interval={500}>
                         <Carousel.Caption>
                         <h3>Cleaning Right will help reduce build-up</h3>
-                        <p>Keep your health up with a clean enviroment.</p>
+                        <p>Keep your health up with a clean environment.</p>
                         </Carousel.Caption>
                         <img
                         className="d-block"
-                        src="https://images.gr-assets.com/hostedimages/1621593196ra/31364427.gif"
+                        src={squiward_being_cleaned}
                         alt="Second slide"
                         />
                         
@@ -60,12 +99,34 @@ const HomePage = ({navItems}) => {
                         
                         <img
                         className="d-block"
-                        src='https://y.yarn.co/5ecd7b39-5539-405b-a1e1-acaccbcf5e87_text.gif'
+                        src={spongebob_crazy}
                         alt="Third slide"
                         />
                         
                     </Carousel.Item>
                 </Carousel>
+                </Row>
+                <Row className="firstColor">
+                    <Col className="col-xs-1" align="center">
+                        <Card style={{ width: '30rem', height: '30rem' }}>
+                            
+                        <Card.Body>
+                            <Card.Title>You Before The Cleaning App</Card.Title>
+                            <Card.Img src={sadGif} />
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className="col-xs-1" align="center">
+                        <Card style={{ width: '30rem', height: '30rem'}}>
+
+                        <Card.Body>
+                            <Card.Title>You During The Cleaning App</Card.Title>
+                            <Card.Img src={cleaningGif} />
+                            
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    
                 </Row>
             </Container>
         </div>

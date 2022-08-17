@@ -79,7 +79,7 @@ function Surface({data, surface_name, surfaceID, editting}) {
                 {
                     surfaceDetailList.map((surface)=> {
                         return  (
-                            <Card border="primary" >
+                            <Card border="white" >
                                 
                                 <Card.Header className><h3><strong>{surface.fields.items}</strong></h3></Card.Header>
                                 
